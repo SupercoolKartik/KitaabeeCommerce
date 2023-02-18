@@ -4,69 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <title>KitaabeeCommerce</title>
-    <style>
-      body {
-        background-color: rgb(189, 223, 191);
-      }
-
-      img.headel {
-        display: inline;
-        margin: auto;
-        float: left;
-      }
-      .headel2 {
-        color: rgb(17, 0, 255);
-        font-family: serif;
-        text-align: center;
-        text-shadow: 2px 2px 5px rgb(2, 2, 37);
-      }
-      ul {
-        background-color: blueviolet;
-        border: 1px solid black;
-        margin: 5px 0px;
-        padding: 5px;
-      }
-      li {
-        display: inline;
-        padding: 2px;
-      }
-      #bur {
-        float: right;
-      }
-      .main {
-        border: 2px solid black;
-        margin: auto;
-        padding: 70px;
-      }
-      .footer {
-        border: 2px solid black;
-        margin: auto;
-        padding: 3px;
-      }
-    </style>
+    <link rel="stylesheet" href="Style.css/style.css" />
+    <style></style>
   </head>
   <body>
     <div class="header">
-      <img src="" alt="KC logo" class="headel" />
+      <img src="Resources/logo2.png" alt="KC logo" class="logo" />
       <h1 class="headel2">KitaabeeCommerce</h1>
     </div>
     <div></div>
-    <ul style="list-style-type: non">
-      <li>home</li>
-      <li>explore</li>
-      <li>sell</li>
-      <li>help</li>
-      <li>search</li>
-      <li id="bur">burger</li>
+    <ul class="nav" style="list-style-type: none">
+      <li><span class="material-symbols-outlined"> home </span></li>
+      <li><span class="material-symbols-outlined"> explore </span></li>
+      <li><span class="material-symbols-outlined"> sell </span></li>
+      <li><span class="material-symbols-outlined"> help </span></li>
+      <li><span class="material-symbols-outlined">search</span></li>
+      <li id="bur"><span class="material-symbols-outlined"> menu </span></li>
       <li></li>
     </ul>
-    <div class="main">main</div>
-    <span>pages</span>
+    <div class="main">
+      <!--<li>
+          <a href=""><img src="Resources/ikigai.webp" alt="book1" /></a>
+        </li>-->
+      <div class="book">
+        <a href=""
+          ><img
+            src="Resources/rich-dad-poor-dad-24.jpg"
+            alt="book2"
+            height="120px"
+            width="50px"
+        /></a>
+      </div>
+      <div class="book">
+        <a href=""
+          ><img
+            src="Resources/the-complete-works-of-oscar-wilde-19.jpg"
+            alt="book3"
+            height="120px"
+            width="50px"
+        /></a>
+      </div>
+      <div class="book">
+        <a href=""
+          ><img
+            src="Resources/the-diary-of-a-young-girl-25.jpg"
+            alt="book4"
+            height="120px"
+            width="50px"
+        /></a>
+      </div>
+      <div class="book">
+        <a href=""
+          ><img
+            src="Resources/the-little-prince-43.jpg"
+            alt="book5"
+            height="120px"
+            width="50px"
+        /></a>
+      </div>
+    </div>
     <div class="footer">
       <p>@KitaabeeCommerce</p>
       <p>Est: 2023</p>
-      <a href="mailto:surajkartik71@gmail.com"><img src="" alt="mail" /></a>
+      <a href="mailto:surajkartik71@gmail.com"
+        ><span class="material-symbols-outlined"> mail </span></a
+      >
     </div>
   </body>
 </html>
