@@ -1,8 +1,11 @@
 body {
     background-color: rgb(238, 210, 179);
 }
-.header{
-    background-image: url("Resources/backgroung-img-header.img");
+header{
+    height: 100px;
+    margin: auto;
+    background-color: rgb(105, 161, 40);
+    /*background-image: url("../Resources/backgroung-img-header.img");*/
 }
 .header__logo {
     height: 50px;
