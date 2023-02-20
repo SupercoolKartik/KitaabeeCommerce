@@ -1,17 +1,17 @@
 body {
-    background-color: rgb(189, 223, 191);
+    background-color: rgb(238, 210, 179);
 }
-/*.header{
-    background-image: Resources/backgroung-img-header.webp;
-}*/
-img.logo {
+.header{
+    background-image: url("Resources/backgroung-img-header.img");
+}
+.header__logo {
     height: 50px;
     display: inline;
     margin: auto;
     float: left;
 }
 
-.headel2 {
+.header__title {
     color: rgb(17, 0, 255);
     font-family: "Courier New", Courier, monospace;
     font-size: 40px;
@@ -20,18 +20,19 @@ img.logo {
 }
 
 .nav {
-    background-color: blueviolet;
+    background-color: rgba(22, 54, 236, 0.548);
     border: 1px solid black;
     margin: 5px 0px;
     padding: 5px;
 }
 
-li {
+.nav li {
+    margin-left: 5px;
     display: inline;
     padding: 2px;
 }
 
-#bur {
+.nav__burger {
     float: right;
 }
 
@@ -39,16 +40,17 @@ li {
     border: 2px solid black;
     overflow-x: scroll;
     margin: auto;
-    height: 200px;
+    /*height: px;*/
 
 }
-.book{
-    margin:2px;
+.main__book{
+    margin:10px;
     display: inline;
     float: left;
 }
 
 .footer {
+    background-color: rgba(22, 54, 236, 0.548);
     border: 2px solid black;
     margin: 3px;
     padding: 3px;
