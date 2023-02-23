@@ -1,29 +1,31 @@
 body {
-    background-color: rgb(238, 210, 179);
+    background-color: rgb(149, 153, 153);
 }
 header{
-    border-radius: 13px;
-    height: 100px;
-    background-color: rgba(22, 54, 236, 0.548);
+    border-radius: 40px;
+    height: min(100px, 19vw);
+    background-color: rgb(73, 73, 78);
     /*background-image: url("../Resources/backgroung-img-header.img");*/
 }
 .header__logo {
     position: relative;
-    top: 24px;
-    left: 10px;
-    height: 50px;
+    top: 18px;
+    left: 18px;
+    width: min(9vw, 60px);
+    height: auto;
     display: inline;
     margin: auto;
     float: left;
 }
 
 .header__title {
-    vertical-align: middle;
+    
     position: relative;
-    top: 24px;
-    color: rgba(7, 17, 70, 0.548);
-    font-family: "Courier New", Courier, monospace;
-    font-size: 7vw;;
+    top: 18px;
+    color: rgba(106, 235, 67, 0.795);
+    font-family: "Audiowide", sans-serif;;
+    font-size: 7vw;
+    font-size: min(7vw, 50px);
     text-align: center;
     text-shadow: 2px 2px 10px rgb(66, 6, 6);
 }
@@ -55,6 +57,7 @@ header{
 }
 
 .main {
+    background-color: rgb(211, 236, 169);
     border: 2px solid black;
     overflow-x: scroll;
     margin: auto;
@@ -68,10 +71,8 @@ header{
     float: left;
     
 }
-.main__book--hover:hover{
-    border-style: none;
-
-    box-shadow: 2px;
+.main__book:hover{
+    border-style: inset;
     
 }
 .goTop{
@@ -90,7 +91,7 @@ header{
     left: 5px;
 }
 .footer {
-    background-color: rgba(22, 54, 236, 0.548);
+    background-color: rgb(73, 73, 78);
     border: 2px solid black;
     margin: 3px;
     padding: 3px;
