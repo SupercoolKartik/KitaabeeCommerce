@@ -1,12 +1,14 @@
 body {
     background-color: rgb(149, 153, 153);
 }
-header{
+
+header {
     border-radius: 40px;
     height: min(100px, 19vw);
     background-color: rgb(73, 73, 78);
     /*background-image: url("../Resources/backgroung-img-header.img");*/
 }
+
 .header__logo {
     position: relative;
     top: 18px;
@@ -19,11 +21,12 @@ header{
 }
 
 .header__title {
-    
+
     position: relative;
     top: 18px;
     color: rgba(106, 235, 67, 0.795);
-    font-family: "Audiowide", sans-serif;;
+    font-family: "Audiowide", sans-serif;
+    ;
     font-size: 7vw;
     font-size: min(7vw, 50px);
     text-align: center;
@@ -31,22 +34,25 @@ header{
 }
 
 .nav {
-    border-radius: 5px;;
+    border-radius: 5px;
+    ;
     background-color: rgba(106, 235, 67, 0.795);
     border: 1px solid black;
     margin: 5px 0px;
     padding: 5px;
-    
+
     position: sticky;
     top: 0;
 }
-.nav__li:hover{
+
+.nav__li:hover {
     color: brown;
-    
+
 }
+
 .nav li {
     position: relative;
-    bottom:2.5px;
+    bottom: 2.5px;
     margin-left: 5px;
     display: inline;
     padding: 2px;
@@ -64,32 +70,37 @@ header{
     /*height: px;*/
 
 }
-.main__book{
-    margin:10px;
+
+.main__book {
+    margin: 10px;
     border-style: outset;
     display: inline;
     float: left;
-    
+
 }
-.main__book:hover{
+
+.main__book:hover {
     border-style: inset;
-    
+
 }
-.goTop{
+
+.goTop {
     position: fixed;
     bottom: 50px;
     right: 15px;
     border: 1px solid black;
     border-radius: 50%;
-    background-color:rgb(223, 71, 71);
+    background-color: rgb(223, 71, 71);
     height: 35px;
-    width:35px;
+    width: 35px;
 }
-.material-symbols-outlined{
+
+.material-symbols-outlined {
     position: relative;
     top: 4px;
     left: 5px;
 }
+
 .footer {
     background-color: rgb(73, 73, 78);
     border: 2px solid black;
